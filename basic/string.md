@@ -31,3 +31,6 @@ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/St
 
 ### str.toUpperCase()
 문자열을 모두 대문자로 변환하는 메서드입니다. 원본을 변경하지 않습니다.
+
+### str.trim()
+문자열 처음과 끝의 공백을 제거한 문자열을 반환합니다. 원본을 변경하지 않습니다.
