@@ -5,12 +5,12 @@
 break를 쓰지않으면 조건에 맞는 case 다음에 있는 case도 같이 출력되어버리므로 주의 해야합니다. <br>
 케이스 어디에도 조건이 일치하지 않는경우 default절이 실행됩니다.
 
-switch(day){
-case 1:
- console.log("monday")
-break
-case 2:
- console.log("tuesday")
-default:
-console.log("i dont know") 
+switch(day){ <br>
+case 1: <br>
+ console.log("monday") <br>
+break <br>
+case 2: <br>
+ console.log("tuesday") <br>
+default: <br>
+console.log("i dont know")  <br>
 }
