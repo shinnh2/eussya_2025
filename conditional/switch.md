@@ -6,12 +6,13 @@ break를 쓰지않으면 조건에 맞는 case 다음에 있는 case도 같이 �
 케이스 어디에도 조건이 일치하지 않는경우 default절이 실행됩니다.
  ```js
 switch(day){ 
-case 1: <br>
+case 1: 
  console.log("monday") 
-break <br>
-case 2: <br>
- console.log("tuesday") 
-default: <br>
+break;
+case 2:
+ console.log("tuesday")
+break; 
+default: 
 console.log("i dont know")  
 }
 ```
