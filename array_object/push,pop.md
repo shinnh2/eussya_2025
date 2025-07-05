@@ -15,3 +15,9 @@ push(element1, element2, /* …, */ elementN)
 배열에 끝에 요소를 삭제하고 그 값을 반환합니다. 
 원본을 변경하는 메서드 입니다.
 
+```js
+const plants = ["broccoli", "cauliflower", "cabbage", "kale", "tomato"];
+
+console.log(plants.pop());
+// Expected output: "tomato"
+```
