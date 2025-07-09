@@ -21,7 +21,7 @@ for문에서 사용할 변수를 선언하여 초기값을 할당합니다. (이
 condition 평가 결과가 참이라면 statement를 실행합니다. 만약 결과가 거짓이라면 다음 반복으로 건너뜁니다.
 - final-expression: 
 다음번 condition 평가 이전에 실행합니다. 주로 initialization에서 선언했던 카운터 변수(예시에서는 `i`)를 증감하거나 바꿀 때 사용합니다.
-- statement
+- statement: 
 condition의 평가 결과가 참일 때 실행하는 문으로 중괄호 안에 작성합니다.
 
 ## for...of
