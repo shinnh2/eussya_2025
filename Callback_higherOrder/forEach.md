@@ -20,7 +20,7 @@ arr.forEach((el, idx, arr)=>{
 forEach(callbackFn, thisArg)
 ```
 - callbackFn
-배열의 각 요소에 대해 실행할 함수입니다. 반환값은 사용되지 않습니다. 함수는 다음 인수를 사용하여 호출됩니다.
+배열의 각 요소에 대해 실행할 함수입니다. 반환값은 사용되지 않습니다. 콜백함수의 인수는 다음과 같습니다.
   - element: 배열에서 처리 중인 현재 요소.
   - index: 배열에서 처리 중인 현재 요소의 인덱스.
   - array: forEach()를 호출한 배열.
