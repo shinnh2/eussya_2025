@@ -25,3 +25,5 @@ raceResult("abby","bark","colt","deel","emy");
 //참가하신 모든 분들 축하합니다!: colt,deel,emy
 ```
 위와 같이 나머지 매개변수를 활용해볼 수 있으며 배열을 받는 경우 나머지는 배열형태로 할당됩니다.
+
+참고 링크: https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/rest_parameters
