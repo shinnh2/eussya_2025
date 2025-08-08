@@ -1,0 +1,131 @@
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	background: none;
+	outline: none;
+}
+input:focus {
+	border: 0 none;
+	background: none;
+}
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0 30px #fff inset;
+	-webkit-text-fill-color: #000;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	transition: background-color 5000s ease-in-out 0s;
+}
+/* style */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+:root {
+	--primary-color: #000; /* 컬러는 원하는 색상으로 하세요~ */
+}
+body {
+	font-family: "Noto Sans KR", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	width: 100%;
+	max-width: 350px;
+}
+header {
+	width: 100%;
+	padding: 8px 16px 12px 16px;
+}
+h1 {
+	font-size: 24px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 20px;
+	font-weight: 500;
+}
+section {
+	padding: 24px 16px;
+	background: #fff;
+}
+.input_wrap {
+	position: relative;
+	width: 100%;
+	height: fit-content;
+	margin-bottom: 20px;
+}
+.input_wrap label {
+	position: absolute;
+	left: 12px;
+	top: -8px;
+	display: block;
+	padding: 0 4px;
+	background: #fff;
+	line-height: 1;
+	font-size: 12px;
+	color: #49454f;
+}
+.input_wrap input {
+	width: 100%;
+	border: 1px solid #79747e;
+	padding: 0 16px;
+	height: 56px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	color: #1d1b20;
+	background: #fff;
+}
+.input_wrap input:focus {
+	border: 0 none;
+	box-shadow: 0 0 0 3px #79747e;
+	background: #fff;
+}
+.btn_tweet {
+	width: 100%;
+	background: var(--primary-color);
+	color: #fff;
+	padding: 0 24px;
+	height: 56px;
+	border-radius: 8px;
+	font-family: "Noto Sans KR", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+}
+.tweets_title {
+	margin: 16px 0;
+}
+.tweets_list {
+	padding: 8px 0;
+	border-radius: 4px;
+	background: #fff;
+	/* box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px; */
+}
+.tweet_item {
+	position: relative;
+	list-style-type: none;
+	padding: 12px 16px;
+	border-top: 1px solid #cac4d0;
+}
+.tweet_item:nth-child(1) {
+	border-top: 0 none;
+}
+.tweet_item .user {
+	display: block;
+	font-size: 16px;
+	color: #1d1b20;
+}
+.tweet_item .content {
+	display: block;
+	font-size: 14px;
+	color: #49454f;
+}
+.btn_delete {
+	position: absolute;
+	right: 16px;
+	top: 12px;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+}
